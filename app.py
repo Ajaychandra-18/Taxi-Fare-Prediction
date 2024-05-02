@@ -1,8 +1,6 @@
 import pickle
 import streamlit as st
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
 
 # Load the trained model
 pickle_in = open('E:/ML Deployment/Regression.pkl', 'rb')
